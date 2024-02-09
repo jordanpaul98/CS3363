@@ -1,4 +1,6 @@
 <pre>
+problem 2.7
+	
 ==Expression prior to removing comments==
 
 var:=5+10 	// addition
