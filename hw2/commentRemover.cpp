@@ -93,7 +93,7 @@ int removeComments(char expr[]){
 
 int main(int argv, char* argc[]){
 
-    char expression[] = "int index = 0; //index of the string\nint length = 20; /* length \n\t\t\t\tof string */\nchar find = 'a';";
+    char expression[] = "var:=5+10 \t// addition\nvar:=10 -5 \t// subtraction\nvar:=4*3.5 \t/* multiplication */\nvar:=20/4 \t/* divsion \n\t\t\t  end exmaples*/";
     
     printf("Expression prior to removing comments\n\n");
     printf("%s\n", expression);
