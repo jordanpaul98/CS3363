@@ -93,7 +93,7 @@ int removeComments(char expr[]){
 
 int main(int argv, char* argc[]){
 
-    char expression[] = "var:=5+10 \t// addition\nvar:=10 -5 \t// subtraction\nvar:=4*3.5 \t/* multiplication */\nvar:=20/4 \t/* divsion \n\t\t\t  end exmaples*/";
+    char expression[] = "var:=5+10 \t// addition\nvar:=10 -5\t// subtraction\nvar:=4*3.5 \t/* multiplication */\nvar:=20/4 \t/* divsion \n\t\t\t  end exmaples*/";
     
     printf("==Expression prior to removing comments==\n\n");
     printf("%s\n", expression);
